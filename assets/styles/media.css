@@ -1,0 +1,92 @@
+@media (max-width: 1140px) {
+.films__items {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.collections__items {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.excerpts {
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 0;
+}
+.excerpt__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.excerpt1 {
+  grid-column: 1/3;
+  grid-row: initial;
+}
+
+.excerpt2 {
+  grid-column: initial;
+  grid-row: initial;
+}
+
+.excerpt3 {
+  grid-column: initial;
+  grid-row: initial;
+}
+
+.excerpt4 {
+  grid-column: initial;
+  grid-row: initial;
+}
+
+.excerpt5 {
+  grid-column: initial;
+  grid-row: initial;
+}
+}
+@media (max-width: 680px){
+.download__title{
+max-width: 185px;
+}
+}
+@media (max-width: 545px) {
+.poster2__title{
+  max-width: 100%;
+}
+.excerpts{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.excerpt1{
+width: 255px;
+height: 190px;
+}
+.excerpt1 img{
+width: 100%;
+height: 100%;
+}
+.trailer__title{
+  width: 100%;
+}
+.series__content{
+  padding: 7px;
+}
+.download{
+gap: 12px;
+}
+.download__market{
+gap: 12px;
+}
+.download__title{
+line-height: 10px;
+font-size: 10px;
+}
+.primary-btn{
+  padding: 14px 20px;
+}
+}
